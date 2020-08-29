@@ -1,0 +1,32 @@
+Alyxandra Spikerman
+Written for a course at Northeastern University: High Performance Computing
+
+Q1.cpp
+
+The program generates a 1024x1024 matrix with random values between 1 and 50. Using LU Decomposition, it then decomposes the matrix and inverts it. The decomposition is stored in the original matrix.
+
+
+--HOW TO COMPILE--
+g++ -fopenmp Q1.cpp -o Q1
+
+OR
+
+make Q1
+
+--HOW TO RUN--
+
+make run_Q1
+
+OR
+
+./Q1
+
+
+Resources Used:
+- https://www.khanacademy.org/math/linear-algebra/matrix-transformations/inverse-of-matrices/v/linear-algebra-nxn-determinant
+- http://mathworld.wolfram.com/MatrixInverse.html
+- https://www.youtube.com/watch?v=h4Za9W2H6fk
+- https://www.caam.rice.edu/~zhang/caam335/F09/handouts/lu.pdf
+- https://www.geeksforgeeks.org/l-u-decomposition-system-linear-equations/
+- https://en.wikipedia.org/wiki/LU_decomposition
+- https://eng.umd.edu/~nsw/chbe250/lu-manual.pdf
